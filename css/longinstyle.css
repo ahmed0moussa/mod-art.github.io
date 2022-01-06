@@ -1,0 +1,125 @@
+/* Start Variables */
+:root {
+    --main-color: #e68187;
+    --secondary-color: #cb1852;
+    --backgroundcolor: #fff0f6;
+    --colorone: #464f4e;
+
+
+  }
+  /* End Variables */
+  
+/* Start login section */
+body{
+    background: url(../image/backg1.jpg) no-repeat;
+    background-size: cover;
+}
+section form{
+    max-width: 400px;
+    min-height: 400px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    margin:  100px auto 106px  auto;
+    padding: 25px;
+    color: #414141;
+        
+}
+.cm-input{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%; 
+    margin: 14px auto;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    
+    
+}
+.cm-input:focus{
+    outline: 0;
+    border-color: var(--main-color);
+    
+}
+.cm-input:invalid{
+    border-color: #e41b17;
+    
+}
+.btn-login{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.btn-login:focus{
+    outline: 0;
+}
+
+.btn-login:hover{
+    opacity: 0.8;
+    transition: .3s;
+}
+.btn-signin{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    text-decoration: none;  
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.btn-signin:focus{
+    outline: 0;
+}
+
+.btn-signin:hover{
+    opacity: 0.8;
+    transition: .3s;
+}
+.gr-bg{
+    background: var(--secondary-color);
+    background: linear-gradient(90deg, #94bbe9 0%, var(--main-color) 55%, #eeaeca 100%);   
+}
+.gr-si{
+
+    margin-top: 56px;
+    background: var(--secondary-color);
+    background: linear-gradient(90deg, #eeaeca 0%, var(--main-color) 55%,#94bbe9 100%);
+
+}
+    .form-title{
+        padding: 12px;
+        text-align: center;
+        position: relative;
+    }
+    .form-title h2{
+        color: var(--secondary-color);
+        font-family: 'Lora', serif;
+        font-size: 26px;
+    }
+    .form-title .user-icon{
+        position: absolute;
+        font-size: 42px;
+        color: #fff;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        text-align: center;
+        border-radius: 45px;
+        top: -76px;
+        left: -52px;
+}
+
+/* end login section */

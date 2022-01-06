@@ -1,0 +1,124 @@
+/* Start Variables */
+:root {
+    --main-color: #e68187;
+    --secondary-color: #cb1852;
+    --backgroundcolor: #fff0f6;
+    --colorone: #464f4e;
+
+
+  }
+  /* End Variables */
+  
+/* Start sign in section */
+body{
+    background: url(../image/backg1.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+section form{
+    max-width: 640px;
+    min-height: 400px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    margin:  100px auto 100px auto;
+    padding: 60px 25px 25px 25px;
+    color: #414141;
+        
+}
+.form-title{
+    padding: 12px;
+    text-align: center;
+    position: relative;
+}
+.form-title h2{
+    color: var(--secondary-color);
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+.form-title .user-icon{
+    position: absolute;
+    font-size: 42px;
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    border-radius: 45px;
+    top: -96px;
+    right: 263px;
+}
+.gr-bg{
+    background: var(--secondary-color);
+    background: linear-gradient(90deg, #94bbe9 0%, var(--main-color) 55%, #eeaeca 100%);   
+}
+.inputWithIcon input {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  .inputWithIcon input:focus {
+    border-color: var(--main-color);
+    box-shadow: 0 0 8px 0 var(--main-color);
+  }
+  .inputWithIcon input {
+    padding-left: 40px;
+  }
+  .inputWithIcon {
+    position: relative;
+  }
+   
+  .inputWithIcon i {
+    position: absolute;
+    left: 0;
+    top: 12px;
+    padding: 9px 8px;
+    transition: 0.3s;
+  }
+   input:focus + i {
+    color: var(--main-color);
+  }
+
+  .inputWithIcon input:focus + i {
+    color: var(--main-color);
+  }
+  .inputWithradio{
+      color: #aaa;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px 40px;
+    border: 2px solid #aaa;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    justify-self: space-around;
+  }
+  .btn-signin{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    display: block;
+    width: 50%;
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 30px 25% 0;
+}
+.btn-signin:focus{
+    outline: 0;
+}
+
+.btn-signin:hover{
+    opacity: 0.8;
+    transition: .3s;
+}
+/* end sign in section */

@@ -1,0 +1,84 @@
+/* Start Variables */
+:root {
+    --main-color: #e68187;
+    --secondary-color: #cb1852;
+    --backgroundcolor: #fff0f6;
+    --colorone: #464f4e;
+
+
+  }
+  /* End Variables */
+  /*start main style of cour */
+main .part1 {
+    display: flex;
+    padding: 20px;
+}
+main .part1 img{
+    width: 25%;
+    box-shadow: 0px 7px 10px rgb(0 0 0 / 50%);
+}
+main .part1 h1{
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    background-color: var(--secondary-color);
+    text-transform: capitalize;
+    padding: 7px 20px;
+    letter-spacing: 4px;
+    width: fit-content;
+    position: relative;
+    top: 34px;
+    right: 40px;
+    box-shadow: 0px 7px 10px rgb(0 0 0 / 50%);
+}
+main .part1 p{
+    font-family: 'Lora', serif;
+    padding: 50px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 27px;
+}
+main .part2 {
+    display: flex;
+    padding: 20px 20px 190px 20px;
+}
+main .part2 .cadre{
+    position: relative;
+    display: flex;
+}
+main .part2 .cadre .img1{
+    width: 500px;
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0px 7px 10px rgb(0 0 0 / 50%);
+}
+main .part2 .cadre .img2{
+    width: 400Px;
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0px 7px 10px rgb(0 0 0 / 50%);
+    position: relative;
+    top: 140px;
+    right: 66px;
+}
+main .part2 .info{
+    font-family: 'Lora', serif;
+    position: relative;
+    left: -60px;
+    top: 55px;
+}
+
+main .part2 .info li{
+    border-bottom: 1px solid var(--main-color);
+    padding: 10px 10px 10px 80px;
+    list-style-position: inside;
+    font-size: 20px;
+    
+}
+main .part2 .info ul li:before {
+    content: '✓    ';
+  }
+main .part2 .info p{
+    border-bottom: 1px solid var(--main-color);
+    padding: 10px;
+    font-size: 24px;
+    letter-spacing: 2px;
+
+}
